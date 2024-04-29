@@ -77,6 +77,6 @@ ZREM # Removes the item from the ZSET, if it exists
  - articles
  - or questions 
  
-including sites such as reddit and Stack Overflow, as shown in figures 1.6 and 1.7. 
-
+including sites such as reddit and Stack Overflow, as shown like below.![alt text](./resources/images/reddit-vote.png)
+![alt text](./resources/images/stack-over-flow-vote.png)
 By taking into consideration the votes that were cast, posts are ranked and displayed based on a score relating those votes and when the link was submitted. We’ll build a Redis-based back end for a simple version of this kind of site.
